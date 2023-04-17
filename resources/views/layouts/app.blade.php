@@ -33,7 +33,7 @@
     </style>
 </head>
 
-<body>
+<body class="g-sidenav-show  bg-gray-100">
     @yield('content')
     <script src="{{ asset('assets/js/core/popper.min.js') }}"></script>
     <script src="{{ asset('assets/js/core/bootstrap.min.js') }}"></script>
